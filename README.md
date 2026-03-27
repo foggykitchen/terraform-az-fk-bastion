@@ -2,7 +2,7 @@
 
 This repository contains a reusable **Terraform / OpenTofu module** and a focused example for deploying **Azure Bastion** to provide secure, audited access to private workloads without public IPs.
 
-It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and is designed as a dedicated **secure access layer** for Azure workloads.
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** and is designed as a dedicated **secure access layer** for Azure workloads.
 
 ---
 
