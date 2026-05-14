@@ -1,42 +1,65 @@
-# Azure Bastion with Terraform / OpenTofu — Examples
+# terraform-az-fk-bastion examples
 
-This directory contains **hands-on Azure Bastion examples** built around the
-`terraform-az-fk-bastion` module.
+This directory contains reusable **Terraform / OpenTofu examples** built around the `terraform-az-fk-bastion` module.
 
-The examples are designed as **progressive building blocks** that introduce how
-Azure **Bastion** provides secure, audited access to private workloads without
-public IPs.
-
-They are part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and are used across:
-
-- Azure Fundamentals with Terraform / OpenTofu  
-- Private networking baselines (no public IPs)  
-- Operator access patterns (Bastion + SSH tunneling)  
-- Multicloud (Azure + OCI) architectural training  
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** and is designed to demonstrate **secure operator access patterns** for private Azure workloads.
 
 ---
 
-## 🧭 Example Overview
+## 🎯 Purpose
 
-| Example | Title | Key Topics |
-|--------|-------|------------|
-| 01 | **Private VM with Bastion Access** | AzureBastionSubnet, NIC-level NSG, Bastion tunneling |
-| 02 | **Private AKS with Bastion Access** | Private AKS, jump VM, NAT Gateway egress, Bastion tunneling |
+The goal of this directory is to provide **clear, educational, and runnable reference examples** for using **Azure Bastion** with real workload topologies.
 
-Each example introduces **one clear access pattern** and can be applied
-**independently** for learning and reuse.
+It focuses on:
+
+- Bastion-based access to **private workloads without public IPs**
+- Progressive examples that highlight **networking and security boundaries**
+- Practical integration with other FoggyKitchen modules
+
+Each example is intended to be applied **independently** for learning and reuse.
 
 ---
 
-## ⚙️ How to Use
+## ✨ What the examples cover
 
-Each example directory contains:
+The examples in this directory demonstrate:
+
+- A **private Linux VM** accessed through Azure Bastion
+- A **private AKS cluster** accessed through Bastion and a jump VM
+- NAT Gateway-based **outbound egress**
+- NSG-based control at the **NIC and subnet boundaries**
+
+Each example includes:
 
 - Terraform / OpenTofu configuration (`.tf`)
 - A focused `README.md` explaining the architectural goal
-- A **fully runnable deployment** (no placeholders, no mock resources)
+- A **fully runnable deployment** with no placeholders or mock resources
 
-To run an example:
+---
+
+## 📂 Example Overview
+
+| Example | Title | Key Topics |
+|--------|-------|------------|
+| `01` | **Private VM with Bastion Access** | AzureBastionSubnet, NIC-level NSG, Bastion tunneling |
+| `02` | **Private AKS with Bastion Access** | Private AKS, jump VM, NAT Gateway egress, Bastion tunneling |
+
+---
+
+## 📁 Directory Structure
+
+```bash
+examples/
+├── 01_private_vm_with_bastion_access/
+│   └── README.md
+├── 02_private_aks_with_bastion_access/
+│   └── README.md
+└── README.md
+```
+
+---
+
+## 🚀 Example Usage
 
 ```bash
 cd examples/01_private_vm_with_bastion_access
@@ -49,22 +72,22 @@ tofu apply
 
 ## 🧩 Related Modules & Training
 
-- [terraform-az-fk-bastion](https://github.com/mlinxfeld/terraform-az-fk-bastion) (this repository)  
-- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)  
-- [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)  
-- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)  
-- [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)  
-- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)  
-- [terraform-az-fk-disk](https://github.com/mlinxfeld/terraform-az-fk-disk)  
-- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)  
-- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)  
+- [terraform-az-fk-bastion](https://github.com/mlinxfeld/terraform-az-fk-bastion)
+- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)
+- [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)
+- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)
+- [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)
+- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
+- [terraform-az-fk-disk](https://github.com/mlinxfeld/terraform-az-fk-disk)
+- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)
+- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
 
 ---
 
 ## 🪪 License
 
 Licensed under the **Universal Permissive License (UPL), Version 1.0**.  
-See `LICENSE` for details.
+See [LICENSE](../LICENSE) for details.
 
 ---
 
