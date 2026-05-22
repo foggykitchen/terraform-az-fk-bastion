@@ -79,7 +79,7 @@ tofu apply
 - [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)
 - [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
 - [terraform-az-fk-disk](https://github.com/mlinxfeld/terraform-az-fk-disk)
-- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)
+- [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)
 - [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
 
 ---
