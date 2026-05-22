@@ -81,7 +81,7 @@ terraform-az-fk-bastion/
 
 ```hcl
 module "bastion" {
-  source = "git::https://github.com/mlinxfeld/terraform-az-fk-bastion.git?ref=v1.0.0"
+  source = "git::https://github.com/foggykitchen/terraform-az-fk-bastion.git?ref=v1.0.0"
 
   name                = "fk-bastion"
   location            = "westeurope"
@@ -114,14 +114,14 @@ module "bastion" {
 
 ## 🧩 Related Modules & Training
 
-- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)
-- [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)
-- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
-- [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)
-- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)
-- [terraform-az-fk-disk](https://github.com/mlinxfeld/terraform-az-fk-disk)
-- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)
-- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
+- [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)
+- [terraform-az-fk-nsg](https://github.com/foggykitchen/terraform-az-fk-nsg)
+- [terraform-az-fk-loadbalancer](https://github.com/foggykitchen/terraform-az-fk-loadbalancer)
+- [terraform-az-fk-natgw](https://github.com/foggykitchen/terraform-az-fk-natgw)
+- [terraform-az-fk-compute](https://github.com/foggykitchen/terraform-az-fk-compute)
+- [terraform-az-fk-disk](https://github.com/foggykitchen/terraform-az-fk-disk)
+- [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)
+- [terraform-az-fk-aks](https://github.com/foggykitchen/terraform-az-fk-aks)
 
 ---
 
