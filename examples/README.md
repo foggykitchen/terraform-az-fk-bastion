@@ -74,10 +74,10 @@ tofu apply
 
 - [terraform-az-fk-bastion](https://github.com/mlinxfeld/terraform-az-fk-bastion)
 - [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)
-- [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)
+- [terraform-az-fk-nsg](https://github.com/foggykitchen/terraform-az-fk-nsg)
 - [terraform-az-fk-compute](https://github.com/foggykitchen/terraform-az-fk-compute)
 - [terraform-az-fk-natgw](https://github.com/mlinxfeld/terraform-az-fk-natgw)
-- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer)
+- [terraform-az-fk-loadbalancer](https://github.com/foggykitchen/terraform-az-fk-loadbalancer)
 - [terraform-az-fk-disk](https://github.com/foggykitchen/terraform-az-fk-disk)
 - [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)
 - [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
