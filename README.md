@@ -4,6 +4,8 @@ This repository contains a reusable **Terraform / OpenTofu module** and a focuse
 
 It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** and is designed as a dedicated **secure access layer** for Azure workloads.
 
+This module is also part of the **[Azure Fundamentals with Terraform/OpenTofu — Build Real-World Azure Architectures with Reusable Modules (2026 Edition)](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** course. In the training, it is used to demonstrate how operators can reach private Azure workloads without exposing public IP addresses on the target machines.
+
 ---
 
 ## 🎯 Purpose
